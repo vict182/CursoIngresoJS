@@ -1,6 +1,11 @@
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
+
+	var numero
+
+	numero = Math.floor(Mat.radom () * 10) + 1 
+
+	alert
 	
 
 }//FIN DE LA FUNCIÓN
