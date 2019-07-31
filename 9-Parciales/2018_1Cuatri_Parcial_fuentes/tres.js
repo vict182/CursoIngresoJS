@@ -3,15 +3,16 @@ function mostrar()
  var precio
  var porcentajededescuento
  var preciofinal 
+ var descuento
 
- precio = prompt ("precio")
- precio = parseInt(precio)
+ precio = parseInt(prompt ("precio"))
 
- porcetajededescuento = prompt ("porcetaje de descuento")
- porcentajededescuento = parseInt(porcentajededescuento)
+ porcentajededescuento = parseInt(prompt ("porcetaje de descuento")) 
 
- preciofinal = parseInt(precio - porcentajededescuento)
+ descuento = ( precio * porcentajededescuento ) / 100 ;
 
-  document.getElementById("elPrecioFinal"). value = preciofinal
+ preciofinal = precio - descuento ;
 
+ document.getElementById("elPrecioFinal").value = preciofinal ;  
+ 
 }

@@ -1,7 +1,7 @@
 function mostrar()
 { 
 
-	var numero
+/*	var numero
 
 	numero = 1
 
@@ -15,5 +15,20 @@ function mostrar()
 		numero = numero + 1 
 	} 
 
+*/
 
-}//FIN DE LA FUNCIÓN
+for ( numero = 1  ; numero < 11 ; numero++ ) {
+	
+	alert (numero)
+
+} 
+
+
+
+}
+
+
+
+
+
+//FIN DE LA FUNCIÓN
